@@ -1,6 +1,9 @@
 {
   "name": "testbot",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.2.1"
+  },
   "description": "A testbot for testing Facebook messenger and wit.ai",
   "main": "index2.js",
   "scripts": {
