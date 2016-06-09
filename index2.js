@@ -169,7 +169,7 @@ app.get('/fb', (req, res) => {
 });
 
 // Message handler
-app.post('/fb', (req, res) => {
+app.post('/', (req, res) => {
   // Parsing the Messenger API response
   const messaging = getFirstMessagingEntry(req.body);
   if (messaging && messaging.message && messaging.recipient.id === FB_PAGE_ID) {
