@@ -1,3 +1,5 @@
+'use strict';
+
 // Messenger API integration example
 // We assume you have:
 // * a Wit.ai bot setup (https://wit.ai/docs/quickstart)
